@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+   background: url("profile/pexels-olenkabohovyk-3646105.jpg");
+   backdrop-filter: 30%;
+   background-size: cover;
+}
+
+.calculator {
+    border: 2px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+}
+
+#display {
+    width: 100%;
+    padding: 30px;
+    font-size: 2em;
+    text-align: right;
+    border: none;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+    color: rgb(0, 0, 0);
+    
+}
+
+.buttons {
+    padding: 10px 5pxx;
+    
+    
+   background-color: rgb(112, 102, 102);
+   opacity: 0.8;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    
+    padding: 15px ;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #d8d8d8;
+    
+}
+.one{
+    position: relative;
+    left: 50%;
+    bottom: 40%;
+    font-size: 30px;
+    background-color: #333;
+    
+    color: whitesmoke;
+    border-radius: 8px;
+}
